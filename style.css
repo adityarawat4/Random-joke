@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background:#113f67;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 80vmin;
+    background:#38598b;
+    padding:25px ;
+    border-radius: 10px;
+    text-align: center;
+}
+#joke{
+    color: #e7eaf6;
+    letter-spacing: 0.02rem;
+    line-height: 1.5rem;
+}
+#joke::selection{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#jokeBtn{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0px;
+    background: #a2a8d3;
+    color: #e7eaf6;
+}
